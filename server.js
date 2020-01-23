@@ -7,9 +7,9 @@ app.use(cors());
 const router = new Router();
 router.get('/api/user',function (ctx) {
     ctx.body = [
-        {name:'zf',id:1},
-        {name:'jw',id:2},
-        {name:'zry',id:3}
+        {name:'zf1',id:1},
+        {name:'jw1',id:2},
+        {name:'zry1',id:3}
     ]
 });
 app.use(router.routes());
